@@ -15,7 +15,6 @@ import org.springframework.context.annotation.ComponentScan;
  *
  */
 @SpringBootApplication
-@ComponentScan(basePackages="org.herb.qnd")
 public class App {
 	private static final Logger log = LoggerFactory.getLogger(App.class);
 
